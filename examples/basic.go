@@ -2,9 +2,10 @@ package main
 
 import (
 	"fmt"
-	"github.com/bsipos/thist"
 	"math/rand"
 	"time"
+
+	"github.com/botond-sipos/thist"
 )
 
 // randStream return a channel filled with endless normal random values
