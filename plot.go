@@ -22,10 +22,11 @@ package thist
 
 import (
 	"fmt"
-	terminal "golang.org/x/crypto/ssh/terminal"
 	"os"
 	"strconv"
 	"strings"
+
+	terminal "golang.org/x/crypto/ssh/terminal"
 )
 
 // Plot is a general plotting function for bar plots. It is used by Bar and BarSimple.

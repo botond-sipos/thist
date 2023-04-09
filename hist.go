@@ -22,12 +22,13 @@ package thist
 
 import (
 	"fmt"
-	terminal "golang.org/x/crypto/ssh/terminal"
 	"math"
 	"os"
 	"sort"
 	"strconv"
 	"strings"
+
+	terminal "golang.org/x/crypto/ssh/terminal"
 )
 
 // Hist is a struct holding the parameters and internal state of a histogram object.

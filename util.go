@@ -42,7 +42,7 @@ func max(s []float64) float64 {
 	return max
 }
 
-//min calculates the minimum of a float64 slice.
+// min calculates the minimum of a float64 slice.
 func min(s []float64) float64 {
 	if len(s) == 0 {
 		return math.NaN()
@@ -185,7 +185,8 @@ func rightPad2Len(s string, padStr string, overallLen int) string {
 	return retStr[:overallLen]
 }
 
-//  centerPad2Len center pads a string to a given length.
+//	centerPad2Len center pads a string to a given length.
+//
 // https://www.socketloop.com/tutorials/golang-aligning-strings-to-right-left-and-center-with-fill-example
 func centerPad2Len(s string, fill string, n int) string {
 	if len(s) >= n {
