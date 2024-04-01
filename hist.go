@@ -28,7 +28,7 @@ import (
 	"strconv"
 	"strings"
 
-	terminal "golang.org/x/crypto/ssh/terminal"
+	terminal "golang.org/x/term"
 )
 
 // Hist is a struct holding the parameters and internal state of a histogram object.
